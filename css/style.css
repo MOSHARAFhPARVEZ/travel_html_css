@@ -1,0 +1,1289 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+
+.container {
+    max-width: 1148px;
+    margin: 0 auto;
+}
+
+/* All Common CSS End */
+
+
+
+/* ============================================================================
+===========================>> Navbar Start Here  <<=========================== 
+============================================================================ */
+
+#navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+}
+
+#navbar .container .nav_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .container .nav_wrapper .nav_logo {
+    width: 20%;
+    ;
+}
+
+#navbar .container .nav_wrapper .nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    width: 60%;
+}
+
+
+
+#navbar .container .nav_wrapper .nav_menu li a {
+    color: #036E8A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+#navbar .container .nav_wrapper .nav_icon {
+    width: 20%;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+
+#navbar .container .nav_wrapper .nav_icon .nav_icon_item {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1.5px solid #036E8A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#navbar .container .nav_wrapper .nav_icon .nav_icon_item i {
+    font-size: 10px;
+    color: #036E8A;
+}
+
+/* ============================================================================
+===========================>> Navbar End Here  <<=========================== 
+============================================================================ *
+
+
+
+/* ============================================================================
+===========================>> Banner Start Here  <<=========================== 
+============================================================================ */
+#banner {
+    background: url("../images/banner_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 257px;
+    padding-bottom: 200px;
+}
+
+
+#banner .banner_wrapper {
+    max-width: 784px;
+    margin: 0 auto;
+
+}
+
+
+#banner .banner_wrapper h1 {
+    color: #FFF;
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 724px;
+}
+
+#banner .banner_wrapper p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+#banner .banner_wrapper form .flex_banner_form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_src {
+
+    width: 428px;
+    height: 60px;
+    border: 1.5px solid #036E8A;
+    border-radius: 8px;
+    position: relative;
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_src input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 95px;
+    padding-right: 25px;
+    color: #036E8A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_src input::placeholder {
+    color: #036E8A;
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_src i {
+    color: #036E8A;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_map {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    background-color: #FF8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner_wrapper form .flex_banner_form .banner_map i {
+    color: white;
+    font-size: 27px;
+}
+
+/* ============================================================================
+===========================>> Banner End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Destination Start Here  <<=========================== 
+============================================================================ */
+
+
+#destination {
+    margin-top: 147px;
+}
+
+
+#destination .destination_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+
+
+#destination .destination_wrapper .destination_content {
+    width: 560px;
+}
+
+
+#destination .destination_wrapper .destination_video {
+    width: 508px;
+    height: 369px;
+    border-radius: 12px;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#destination .destination_wrapper .destination_video a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#destination .destination_wrapper .destination_video a .destination_video_icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#destination .destination_wrapper .destination_video a .destination_video_icon i {
+    color: #036E8A;
+    font-size: 20px;
+}
+
+#destination .destination_wrapper .destination_content .destination_content_subtitle {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#destination .destination_wrapper .destination_content .destination_content_title {
+    color: #036E8A;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+
+#destination .destination_wrapper .destination_content .destination_content_desc {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+#destination .location {
+    margin-top: 71px;
+    border: 2px solid #036E8A;
+    width: 100%;
+    border-radius: 10px;
+    padding: 54px 64px;
+}
+
+#destination .location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#destination .location .location_content {
+    position: relative;
+}
+
+#destination .location .location_content::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -80px;
+    width: 4px;
+    height: 96px;
+    background: #FF8000;
+}
+
+#destination .location .location_content p {
+    color: #036E8A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#destination .location .location_content .location_star_wrapper {
+    font-size: 24px;
+    color: #FF8000;
+    margin-top: 14px;
+}
+
+#destination .location .location_content .location_star_wrapper i:last-child {
+    opacity: 0.5;
+}
+
+#destination .location .book_now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+#destination .location .book_now .book_now_content p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#destination .location .book_now .book_now_content h4 {
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#destination .location .book_now .book_now_btn a {
+    padding: 15px 43px;
+    background-color: #FF8000;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* ============================================================================
+===========================>> Destination End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Package Start Here  <<=========================== 
+============================================================================ */
+
+#package {
+    margin-top: 90px;
+    margin-bottom: 114.36px;
+}
+
+#package .package_headding {
+    text-align: center;
+}
+
+#package .package_headding h2 {
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#package .package_headding p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+    margin-bottom: 91.5px;
+}
+
+#package .package_wrapper {
+    margin-top: 91.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#package .package_wrapper .package_item .package_item_inner {
+    border: 1px solid #036E8A;
+    padding: 36px 36px 76px 36px;
+    width: 356px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#package .package_wrapper .package_item .package_item_inner h5 {
+    color: #036E8A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#package .package_wrapper .package_item .package_item_inner h4 {
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#package .package_wrapper .package_item .package_item_inner p {
+    color: #036E8A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#package .package_wrapper .package_item .package_item_inner ul {
+    margin-top: 39.86px;
+}
+
+#package .package_wrapper .package_item .package_item_inner ul li {
+    display: flex;
+    column-gap: 13px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#package .package_wrapper .package_item .package_item_inner ul li i {
+    font-size: 18px;
+    color: #036E8A;
+}
+
+#package .package_wrapper .package_item .package_item_inner ul li span {
+    font-size: 18px;
+    color: #000;
+}
+
+
+#package .package_wrapper .package_item:last-child .package_item_inner {
+    border: 1px solid #FF8000;
+    padding: 36px 36px 76px 36px;
+    width: 356px;
+    border-radius: 8px;
+}
+
+
+#package .package_wrapper .package_item:last-child .package_item_inner h5 {
+    color: #FF8000;
+}
+
+#package .package_wrapper .package_item:last-child .package_item_inner h4 {
+    color: #FF8000;
+}
+
+#package .package_wrapper .package_item:last-child .package_item_inner p {
+    color: #FF8000;
+}
+
+#package .package_wrapper .package_item:last-child .package_item_inner ul li i {
+    color: #FF8000;
+}
+
+#package .package_wrapper .package_item:last-child .package_item_inner ul li i {
+    color: #FF8000;
+}
+
+#package .package_wrapper .package_item .package_item_inner ul li .disable {
+    opacity: .5;
+}
+
+#package .package_wrapper .package_item .package_item_inner a {
+    padding: 14px 28px;
+    text-transform: uppercase;
+    background: #036E8A;
+    text-align: center;
+    border-radius: 12px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom: -5%;
+    left: 25%;
+    display: inline-block;
+}
+
+
+#package .package_wrapper .package_item:last-child .package_item_inner a {
+    background-color: #FF8000;
+}
+
+#package .package_wrapper p {
+    text-align: center;
+    margin-top: 43px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ============================================================================
+===========================>> Package End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Featured Destination Start Here  <<=========================== 
+============================================================================ */
+
+#featured {
+    background: #036E8A;
+}
+
+#featured .featured_wrapper {
+    display: flex;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    gap: 74px;
+    align-items: center;
+}
+
+#featured .featured_wrapper .featured_img {
+    width: 508px;
+    height: 523px;
+    border-radius: 31px;
+    background-color: #FF8000;
+    overflow: hidden;
+}
+
+#featured .featured_wrapper .featured_img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#featured .featured_wrapper .featured_item {
+    width: 561px;
+}
+
+#featured .featured_wrapper .featured_item h6 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#featured .featured_wrapper .featured_item h3 {
+    color: #FFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+
+#featured .featured_wrapper .featured_item p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+
+/* ============================================================================
+===========================>> Featured Destination End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Most Destination Start Here  <<=========================== 
+============================================================================ */
+
+#gallery {
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+
+.hedding_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hedding_wrapper h2 {
+    color: #036E8A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hedding_wrapper p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+    width: 829px;
+}
+
+
+#gallery .gallery_wrapper {
+    margin-top: 106px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#gallery .gallery_wrapper .gal_item {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner {
+    background-color: #dd1a1a;
+    width: 100%;
+    border-radius: 37px;
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner.large {
+    height: 407px;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner.small {
+    height: 275px;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner .gal_text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner .gal_text h3 {
+    color: #707070;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#gallery .gallery_wrapper .gal_item .gal_item_inner .gal_text h6 {
+    color: #707070;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ============================================================================
+===========================>> Most Destination End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Counter Start Here  <<=========================== 
+============================================================================ */
+
+#counter {
+    padding: 90px 0 158px 0;
+    background: url(../images/counter_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#counter .counter_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#counter .counter_wrapper .counter_item h3 {
+    color: #707070;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#counter .counter_wrapper .counter_item p {
+    color: #707070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+/* ============================================================================
+===========================>> Counter End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Newsletter Start Here  <<=========================== 
+============================================================================ */
+
+#newsletter {
+    padding: 97px 0px 129px 0px;
+}
+
+#newsletter .newsletter_gal {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 23px;
+}
+
+#newsletter .newsletter_gal .newsletter_gal_item {
+    height: 241px;
+    width: 275px;
+    border-radius: 20px;
+    background: #000;
+    overflow: hidden;
+}
+
+#newsletter .newsletter_gal .newsletter_gal_item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#newsletter .newsletter_gal .newsletter_gal_item:last-child img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#newsletter .newsletter_gal .newsletter_gal_item:last-child {
+    height: 241px;
+    width: 850px;
+    border-radius: 20px;
+    background: #000;
+    overflow: hidden;
+}
+
+#newsletter .newsletter_box {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    /* justify-content: center; */
+}
+
+
+#newsletter .newsletter_box .newsletter_box_img {
+    height: 482px;
+    width: 514px;
+    border-radius: 20px;
+    background: #000;
+    overflow: hidden;
+}
+
+#newsletter .newsletter_box .newsletter_box_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper {
+    width: 528px;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper p {
+    color: #036E8A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper h3 {
+    color: #036E8A;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 528px;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form {
+    margin-top: 46.5px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form .form_group input {
+    padding: 27px 50px 29px 60px;
+    border-radius: 12px;
+    border: 1px solid #036E8A;
+    outline: none;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form .form_group input::placeholder {
+    color: #036E8A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form .form_group {
+    position: relative;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form .form_group i {
+    position: absolute;
+    top: 48%;
+    transform: translate(0, -48%);
+    left: 18px;
+    font-size: 20px;
+    color: #036E8A;
+}
+
+#newsletter .newsletter_box .newsletter_box_item .newsletter_box_wrapper .newsletter_form button {
+    padding: 22px 39px 23px 44px;
+    border-radius: 12px;
+    background: #FF8000;
+    border: none;
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+/* ============================================================================
+===========================>> Newsletter End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Brand Start Here  <<=========================== 
+============================================================================ */
+
+#brand .brand_wrapper {
+    border: 3px solid #036E8A;
+    /* height: 217px; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+#brand .brand_wrapper .brand_img {
+    text-align: center;
+    position: relative;
+}
+
+#brand .brand_wrapper .brand_img::after {
+    position: absolute;
+    content: "";
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 3px solid #036E8A;
+    height: 73px;
+    border-radius: 5px;
+}
+
+#brand .brand_wrapper .brand_img:last-child::after {
+    border: 3px solid transparent;
+}
+
+
+/* ============================================================================
+===========================>> Brand End Here  <<=========================== 
+============================================================================ */
+
+
+
+
+/* ============================================================================
+===========================>> Review Start Here  <<=========================== 
+============================================================================ */
+
+
+#review {
+    padding: 120px 0px 150px 0px;
+}
+
+#review .review_wrapper {
+    margin-top: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 77px;
+    column-gap: 72px;
+    flex-wrap: wrap;
+}
+
+#review .review_wrapper .review_item {
+    width: 538px;
+    height: 399px;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 40px 60px;
+    box-shadow: -1px 0px 17px -4px rgba(0, 0, 0, 0.31);
+}
+
+#review .review_wrapper .review_item .review_img {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #707070;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#review .review_wrapper .review_item .review_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#review .review_wrapper .review_item .review_text {
+    width: 420px;
+    text-align: center;
+}
+
+#review .review_wrapper .review_item .review_text h3 {
+    color: #036E8A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 27px;
+}
+
+#review .review_wrapper .review_item .review_text h6 {
+    color: #262525;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#review .review_wrapper .review_item .review_text .review_icon i {
+    color: #FF8000;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+#review .review_wrapper .review_item .review_text p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 21px;
+}
+
+#review .review_wrapper .review_item:nth-child(3) {
+    background: #036E8A;
+}
+
+#review .review_wrapper .review_item:nth-child(3) .review_text h3 {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(3) .review_text h6 {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(3) .review_text .review_icon i {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(3) .review_text p {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(4) {
+    background: #FF8000;
+}
+
+#review .review_wrapper .review_item:nth-child(4) .review_text h3 {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(4) .review_text h6 {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(4) .review_text .review_icon i {
+    color: #FFF;
+}
+
+#review .review_wrapper .review_item:nth-child(4) .review_text p {
+    color: #FFF;
+}
+
+
+/* ============================================================================
+===========================>> Review End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Message Start Here  <<=========================== 
+============================================================================ */
+
+#message {
+    padding-bottom: 120px;
+}
+
+#message .message_wrapper {
+    background: #036E8A;
+    border-radius: 30px;
+    padding: 86px 174px;
+    text-align: center;
+}
+
+#message .message_wrapper h2 {
+    color: #FFF;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+#message .message_wrapper h2::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 778px;
+    background: #fff;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#message .message_wrapper p {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 661px;
+    margin: 0 auto;
+    margin-top: 135px;
+    position: relative;
+}
+
+#message .message_wrapper p::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 411px;
+    background: #fff;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#message .message_wrapper .msg_btn {
+    margin-top: 103px;
+}
+
+#message .message_wrapper .msg_btn button {
+    padding: 20px 67px 21px 67px;
+    background: #FF8000;
+    border: none;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 12px;
+}
+
+/* ============================================================================
+===========================>> Message End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Footer Start Here  <<=========================== 
+============================================================================ */
+
+#footer .footer_wrapper {
+    padding-bottom: 98px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#footer .footer_wrapper .footer_item h3 {
+    color: #036E8A;
+    font-size: 24.917px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#footer .footer_wrapper .footer_item h3::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -33px;
+    width: 142px;
+    height: 1px;
+    background: #036E8A;
+}
+
+
+#footer .footer_wrapper .footer_item ul {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#footer .footer_wrapper .footer_item ul li a {
+    color: #262525;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer .copyright {
+    background: #FF8000;
+    padding: 42px 186px 48px 146px;
+}
+
+#footer .copyright .copyright_wrapper {
+    background: #FF8000;
+    padding: 42px 186px 48px 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .copyright .copyright_wrapper .text_one p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer .copyright .copyright_wrapper .text_one p a {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer .copyright .copyright_wrapper .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#footer .copyright .copyright_wrapper .icon .icon_item {
+    height: 29px;
+    width: 29px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .copyright .copyright_wrapper .icon .icon_item {
+    color: #FFF;
+    font-size: 10px;
+}
+
+#footer .copyright .copyright_wrapper .text_two ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer .copyright .copyright_wrapper .text_two ul li a {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ============================================================================
+===========================>> Footer End Here  <<=========================== 
+============================================================================ */
+
+
+
+/* ============================================================================
+===========================>> Counter Start Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> Counter End Here  <<=========================== 
+============================================================================ */
